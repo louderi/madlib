@@ -1,0 +1,28 @@
+body{
+  background-image: url("https://github.com/louderi/images/blob/master/nv54oz.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#title{
+  color: white;
+  text-align:center;
+  font-size: 4em;
+  font-family: 'Yeon Sung', cursive;
+}
+
+#info{
+  color:aliceblue;
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Literata', serif;
+}
+
+#story{
+  color:white;
+  text-decoration: bold;
+  padding-left: 10em;
+  padding-right: 10em;
+}

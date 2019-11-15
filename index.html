@@ -1,0 +1,52 @@
+<!-- 
+  FIRST:   Play one of the madlibs from this site: https://www.madtakes.com/index.php
+
+  SECOND: Create your own madlib site. You can create your own story or use one from this site.
+
+  REQUIREMENTS: The page must be STYLED!! Make it colorful, pretty, full of CSS and HTML goodness on top of wonderful JS.  Show off all you can do!
+
+  -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Literata|Yeon+Sung&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="title">Madlib Story</div>
+    <div id="info">Type in whatever words you want, then click "Let's Go!" to make your own little, silly story! 
+      <br>
+      <br>
+      <br>
+      <br>
+      <span>Noun<br>
+      </span>
+      <input type="text" placeholder="Farm" id="noun">
+      <br>
+      <span>Adjective<br>
+      </span>
+      <input type="text" placeholder="Old" id="adjective">
+      <br>
+      <span>Animal<br>
+      </span>
+      <input type="text" placeholder="Dog" id="animal">
+      <br>
+      <span>Sound<br>
+      </span>
+      <input type="text" placeholder="Woof" id="sound">
+      <br>
+      <span>Occupation<br>
+      </span>
+      <input type="text" placeholder="Farmer" id="occupation">
+      <br>
+      <br>
+      <input type="button" value="Let's Go!" onclick="storyTime()">
+
+      <div id="story"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
